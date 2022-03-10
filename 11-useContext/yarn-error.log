@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Lucas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Lucas\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Lucas\AppData\Local\Programs\Python\Python310;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Lucas\AppData\Local\Microsoft\WindowsApps;C:\Users\Lucas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lucas\AppData\Roaming\npm;C:\Users\Lucas\AppData\Local\GitHubDesktop\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Python310\Scripts;C:\Python310;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Lucas\AppData\Local\Yarn\Cache\v6\npm-@babel-code-frame-7.16.7-44416b6bd7624b998f5b1af5d470856c40138789-integrity\node_modules\@babel\code-frame\LICENSE' -> 'C:\Users\Lucas\Documents\DevOps\React\training\11-useContext\node_modules\@babel\code-frame\LICENSE'
+
+npm manifest: 
+  {
+    "name": "tpk-react-base",
+    "version": "0.0.1",
+    "description": "TPK Boilerplate for ReactJS apps",
+    "main": "index.js",
+    "author": "Gilles BERTRAND",
+    "license": "MIT",
+    "dependencies": {
+      "@fullhuman/postcss-purgecss": "^3.0.0",
+      "@tailwindcss/ui": "^0.6.2",
+      "autoprefixer": "^9.8.6",
+      "postcss-modules": "^3.2.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "tailwindcss": "^1.8.10"
+    },
+    "devDependencies": {
+      "@imaginary-cloud/eslint-config-react": "1.0.1",
+      "eslint": "^7.9.0",
+      "eslint-config-airbnb": "^18.1.0",
+      "eslint-config-prettier": "^6.10.1",
+      "eslint-plugin-import": "^2.20.2",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-prettier": "^3.1.3",
+      "eslint-plugin-react": "^7.19.0",
+      "eslint-plugin-react-hooks": "^2.5.1",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^2.1.2"
+    },
+    "scripts": {
+      "clear": "rm -rf .cache/ dist/",
+      "dev": "parcel src/index.html",
+      "build": "parcel build src/index.html",
+      "format": "prettier --write \"src/**/*.{js,jsx}\"",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "eslintConfig": {
+      "extends": "@imaginary-cloud/react"
+    },
+    "prettier": "@imaginary-cloud/prettier-config"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
